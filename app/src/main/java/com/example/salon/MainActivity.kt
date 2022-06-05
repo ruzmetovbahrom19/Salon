@@ -63,12 +63,8 @@ class MainActivity : AppCompatActivity() {
         sharedPreferences=getPreferences(MODE_PRIVATE)
         uid= sharedPreferences.getString("abs123",null).toString()
         if (uid!=null){
-            startActivity(this,MainActivity3::class.java)
+            startActivity(Intent(this,MainActivity3::class.java))
         }
-    }
-
-    private fun startActivity(mainActivity: MainActivity, java: Class<MainActivity3>) {
-
     }
 
 
