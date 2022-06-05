@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/saalon"
+    android:background="@drawable/soat"
     tools:context=".MainActivity3">
     <LinearLayout
         android:orientation="vertical"
@@ -38,12 +38,20 @@
         </androidx.appcompat.widget.Toolbar>
         <TextView
             android:layout_margin="15dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:text="ish vaqti 9:00 dan 18:00"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"></TextView>
 
         <TextView
             android:layout_margin="15dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"
             android:text="Navbatlar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"></TextView>

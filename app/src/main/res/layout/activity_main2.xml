@@ -7,9 +7,11 @@
     android:orientation="vertical"
     android:padding="15dp"
     android:background="@drawable/styl"
+
     tools:context=".MainActivity2">
 
     <EditText
+        android:layout_marginTop="220dp"
         android:textColor="@color/purple_500"
         android:hint="ism"
         android:id="@+id/edittext1"
@@ -34,12 +36,13 @@
         android:id="@+id/edittext4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></EditText>
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:background="@drawable/bakround"
+        android:textSize="18dp"
         android:id="@+id/button2"
         android:text="register"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></Button>
+        android:layout_height="wrap_content"></androidx.appcompat.widget.AppCompatButton>
 
 
 </LinearLayout>
