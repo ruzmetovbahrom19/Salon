@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "504531101619",
+    "project_id": "sartarosh-e5507",
+    "storage_bucket": "sartarosh-e5507.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504531101619:android:c899b5c7c221a1ad15cdc6",
+        "android_client_info": {
+          "package_name": "com.example.salon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504531101619-unej2bit9b41c8d9spoisqngc8dbtmi0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.salon",
+            "certificate_hash": "c7b6b02f1f0a2e92981892fa31419bd009868c05"
+          }
+        },
+        {
+          "client_id": "504531101619-ok76qv7mtvnkm94ngtkj40l209lqcmvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArkyCqvNHO6bUZ-lIRSpEIVjyG9smPb5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504531101619-ok76qv7mtvnkm94ngtkj40l209lqcmvo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
