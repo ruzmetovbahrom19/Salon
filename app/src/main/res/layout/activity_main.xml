@@ -5,25 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/styl"
     android:padding="15dp"
     tools:context=".MainActivity">
 
     <EditText
+        android:textColor="@color/purple_500"
         android:hint="email"
         android:id="@+id/edittext1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></EditText>
     <EditText
+        android:textColor="@color/purple_500"
         android:hint="password"
         android:id="@+id/edittext2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></EditText>
     <Button
+        android:layout_margin="5dp"
+        android:background="@drawable/bakround"
         android:text="login"
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></Button>
     <Button
+        android:layout_margin="5dp"
+        android:background="@drawable/bakround"
         android:text="register"
         android:id="@+id/button2"
         android:layout_width="match_parent"
